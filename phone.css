@@ -1,0 +1,103 @@
+/* Navbar section  */
+
+
+#navbar{
+    flex-direction: column;
+}
+
+
+#navbar  li a{
+    padding: 0px 14px;
+    font-size: 0.9rem;
+    
+}
+
+#overview{
+    flex-direction: column;
+}
+
+
+#music{
+    padding: 0px 10px;
+
+}
+
+#music h3{
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.logo img {
+    height: 70px;
+    margin: 0px 1px;
+}
+
+
+#music .lead{
+    font-size: 1.3rem;
+}
+
+#music .second{
+    font-size: 1rem;
+    text-align: center;
+}
+
+
+.btn{
+    padding: 14px 10px;
+    margin: 16px 0px;
+    font-size: 0.9rem;
+}
+
+
+#entertainment p{
+    font-size: 0.8rem;
+    padding: 0px 22px ;
+}
+
+#entertainment h1{
+    font-size: 1rem;
+    text-align: center;
+    
+}
+
+#video{
+    padding: 20px 14px;
+
+}
+
+#video h1{
+    font-size: 1.8rem;
+    text-align: center;
+
+}
+
+#overview h3{
+    text-align: center;
+}
+
+#overview::before {
+    content: "";
+    background: url(/daniel-wirtz-jmmTlAPtNw8-unsplash.jpg) no-repeat center center/cover;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 709px;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.9;
+}
+
+.gift-para h3 {
+    font-size: 1.5rem;
+    font-family: 'Prompt', sans-serif;
+    padding: 15px 0px;
+    margin: 5px 0px;
+}
+.gift-para p {
+    font-size: 1rem;
+}
+#cards img {
+    height: 77%;
+    width: 100%;
+}

@@ -1,0 +1,275 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Prompt:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap');
+
+/* font-family: 'Dancing Script', cursive; */
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+
+#navbar{
+    display: flex;
+   align-items: center;
+   position: sticky;
+  
+   top: 0px;
+}
+
+#navbar::before{
+    content: "";
+    background-color: black;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.9;
+}
+
+#navbar ul{
+    display: flex;
+}
+
+#navbar li{
+    list-style: none;
+}
+
+#navbar li a{
+    text-decoration: none;
+    padding: 0px 30px ;
+   font-size: 1.5rem;
+   color: white;
+   font-family: 'Roboto Mono', monospace;
+}
+
+#navbar li a:hover{
+    text-decoration: underline;
+    color: rgb(167, 157, 157);
+    text-decoration-color: red;
+    
+}
+
+
+.logo{
+    margin: 10px 7px;
+}
+
+.logo img{
+    height: 80px;
+    margin: 0px 30px;
+    filter: invert(100%);
+}
+
+#overview{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 595px;
+    padding: px 250px;
+}
+
+#overview::before{
+    content: "";
+    background: url('/daniel-wirtz-jmmTlAPtNw8-unsplash.jpg') no-repeat center center/cover;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 700px;
+
+    width: 100%;
+    z-index: -1;
+    /* opacity: 1; */
+}
+
+#overview h1{
+    font-size: 3.5rem;
+    font-family: 'Prompt', sans-serif;
+    color: white;
+    text-shadow: 2px 2px red;
+    font-weight: bolder;
+}
+
+#overview h3{
+    font-size: 2rem;
+    font-family: 'Prompt', sans-serif;
+    color: white;
+}
+
+#music{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(14, 13, 13);
+    padding: 0px 250px;
+    
+}
+
+#music h1{
+    font-size: 3.5rem;
+    font-family: 'Prompt', sans-serif;
+    color: white;
+    margin: 20px 0px;
+}
+
+#music h3{
+    font-size: 2rem;
+    font-family: 'Prompt', sans-serif;
+    color: white;
+    margin: 5px;
+}
+#music .lead{
+    text-align: center;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 1.8rem;
+    color: white;
+}
+
+#music  .second{
+    
+    font-family: 'Roboto Mono', monospace;
+    font-size: 1.3rem;
+    margin: 25px 0px;
+    color: white;
+}
+
+.btn{
+    padding: 19px 16px;
+    margin: 16px 0px;
+    font-size: 1rem;
+    color: white;
+    background-color: red;
+    border: 2px solid white;
+    border-radius: 10px;
+    
+}
+.btn:hover{
+    background-color: rgb(143, 45, 45);
+    cursor: pointer;
+}
+
+
+.pic1 img{
+    width: 100%;
+}
+
+#video {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 40px 180px;
+}
+
+#video h1{
+    font-size: 2rem;
+    font-family: 'Prompt', sans-serif;
+    /* margin: 50px 0px; */
+}
+
+#video p{
+    text-align: center;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 25px 0px;
+    
+}
+
+.btn1{
+    font-size: 1.1rem;
+    padding: 15px 22px;
+    margin: 5px 0px;
+    background-color: rgb(38, 38, 85);
+    color: white;
+}
+
+.btn1:hover{
+    background-color: rgb(10, 10, 54);
+    cursor: pointer;
+}
+
+#video .pic2 img{
+   width: 100%;
+}
+
+#entertainment{
+    background: url('/vincentiu-solomon-ln5drpv_ImI-unsplash.jpg')no-repeat center center/cover;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 500px;
+}
+
+#entertainment h1{
+    font-size: 2rem;
+    font-family: 'Prompt', sans-serif;
+    padding: 25px 0px;
+    margin: 5px 0px;
+    color: white;
+}
+
+#entertainment p{
+    text-align: center;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 0px 200px;
+    color: white;
+}
+
+
+#cards{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 10px;
+    padding: 60px 200px;
+    
+    grid-auto-rows: 300px;
+}
+
+#cards img{
+    height: 100%;
+    width: 100%;
+
+}
+
+.gift-para h3{
+    font-size: 2rem;
+    font-family: 'Prompt', sans-serif;
+    padding: 25px 0px;
+    margin: 5px 0px;
+}
+
+.gift-para p{
+    font-size: 1.5rem;
+
+}
+
+
+.gift-para{
+    margin: 123px 46px;
+}
+
+#cards{
+    
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-gap: 10px;
+        padding: 20px 7px;
+        /* grid-auto-rows: 313px; */
+        grid-template-rows: 1fr;
+   
+}
+
