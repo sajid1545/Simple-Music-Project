@@ -203,7 +203,7 @@ html{
 }
 
 #entertainment{
-    background: url('/vincentiu-solomon-ln5drpv_ImI-unsplash.jpg')no-repeat center center/cover;
+    background: url('./pictures/vincentiu-solomon-ln5drpv_ImI-unsplash.jpg')no-repeat center center/cover;
     
     display: flex;
     align-items: center;
